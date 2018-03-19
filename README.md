@@ -1,8 +1,8 @@
 # Introduction to Python, 2 Day Beginner Workshop
 
-This Python Beginner's workshop will be running from 10.00am - 5pm on Tuesday 27th March and a TBD date the following week, at the CoLab training space, also known as Room 329, Level 3, Eastern Resource Centre, Building 171. 
+This Python Beginner's workshop will be running from 10.00am - 4pm on Tuesday 27th March and Friday 6th April, at the CoLab training space, also known as Room 329, Level 3, Eastern Resource Centre, Building 171. 
 
-Due to construction works, the access to this building has been affected. To gain access to the CoLab training space, you can come into the University from Monash Rd or Gate 7, as shown on the below map. From there, you can access the external stairs on the Doug McDonall building, or enter the downstairs doors and take the lift inside Doug McDonall to Level 2. From there, enter at the glass doors next to the Resource cafe, head to the back of the lobby (keep the ERC library entrance on your left) and enter at back right.
+Due to construction works, the access to this building has been affected. To gain access to the CoLab training space, you can come into the University from Monash Rd or Gates 7-8, as shown on the map below. From there, you can access the external stairs on the Doug McDonall building, or enter the building from the ground level and take the lift inside to Level 2. From there, enter at the glass doors next to Resource cafe, head to the back of the lobby (keep the library entrance on your left) and enter at back right.
 
 ![Access Map](https://github.com/resbaz/IntroPython_2Day/blob/master/AccessMap.png "How to Access CoLab")
 
