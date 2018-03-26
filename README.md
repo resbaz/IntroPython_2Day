@@ -45,3 +45,11 @@ The basic progression for the workshop should be as follows:
 |2.45pm - 3.00pm|Tea Break|
 |3.00pm - 4.00pm|Functions|
 
+### Friday 6th April
+
+To be updated soon. Topics will include:
+
+- Dictionaries
+- File Input/Output
+- String Manipulations
+- How to use packages + further training tasters
