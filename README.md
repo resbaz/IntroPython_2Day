@@ -26,3 +26,22 @@ Text Editors:
 - [Sublime Text](https://www.sublimetext.com/). Unlimited free license. Occasional pop-up ads. 
 
 You will also find that the content for the workshop is available in both the markdown (\*.md) format, for online viewing, and as an iPython notebooks (\*.ipynb), which will contain useable code fragments, challenges and explanations for the workshop content. This content is mostly adapted from "Python Basics" chapters of Dan Sandiford's [Python Gitbook](https://dansand.gitbooks.io/resguides-research-with-jupyter/content/), as well as from previous iterations of this workshop. 
+
+---
+
+## Workshop Schedule
+
+The basic progression for the workshop should be as follows:
+
+### Tuesday 27th March
+|Time| Activity|
+|---:|---|
+|10.00am - 11.00am |Intro to Jupyter and Python|
+|11.15am - 11.30am|Tea Break|
+|11:30am - 11.45am |Lists|
+|11.45am - 12.30pm|Conditionals|
+|12.30am - 1.45pm|Lunch|
+|1.45pm - 2.45pm|For Loops|
+|2.45pm - 3.00pm|Tea Break|
+|3.00pm - 4.00pm|Functions|
+
