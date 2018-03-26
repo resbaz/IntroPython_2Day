@@ -11805,7 +11805,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#we can make empty lists</span>
@@ -11816,28 +11816,10 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[58]:</div>
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[]</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="p">()</span>
@@ -11847,87 +11829,30 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[59]:</div>
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[]</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Or lists with things inside them</span>
-<span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[60]:</div>
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[1, 2, 3, 4]</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#To save this list though we need to assign it to a variable</span>
-<span class="n">tempList</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
-
 <span class="n">tempList</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[61]:</div>
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[1, 2, 3, 4]</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -11944,31 +11869,13 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tempList</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[62]:</div>
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>2</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -11981,22 +11888,23 @@ div#notebook {
 <p>Wait, but that's given us the number 2? Why?</p>
 <hr>
 <p>This is because Python actually works based on 0-indexing, meaning that it starts counting from 0 instead of 1.</p>
-<p>This means that if we want to get the first element of our list, we actually have to call list[0], instead of list[1]</p>
+<p>This means that if we want to get the first thing from inside of our list, we actually have to call list[0], instead of list[1]</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tempList</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mf">2.5</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="s2">&quot;This&quot;</span><span class="p">,</span> <span class="p">[]]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tempList</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="s2">&quot;This&quot;</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;Lookie!&quot;</span><span class="p">,</span><span class="s2">&quot;Another&quot;</span><span class="p">,</span><span class="s2">&quot;List!&quot;</span><span class="p">]]</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;0&quot;</span><span class="p">,</span><span class="n">tempList</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;1&quot;</span><span class="p">,</span><span class="n">tempList</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;2&quot;</span><span class="p">,</span><span class="n">tempList</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;3&quot;</span><span class="p">,</span><span class="n">tempList</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;4&quot;</span><span class="p">,</span><span class="n">tempList</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
 </pre></div>
 
 </div>
@@ -12015,6 +11923,7 @@ div#notebook {
 1 2.5
 2 3
 3 This
+4 [&#39;Lookie!&#39;, &#39;Another&#39;, &#39;List!&#39;]
 </pre>
 </div>
 </div>
@@ -12035,7 +11944,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;first and last:&#39;</span><span class="p">,</span> <span class="n">tempList</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="s2">&quot;and&quot;</span><span class="p">,</span> <span class="n">tempList</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
@@ -12053,7 +11962,7 @@ div#notebook {
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>first and last: 1 and []
+<pre>first and last: 1 and [&#39;Lookie!&#39;, &#39;Another&#39;, &#39;List!&#39;]
 </pre>
 </div>
 </div>
@@ -12062,12 +11971,24 @@ div#notebook {
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong><em>Interstingly, strings behave a lot like a list of letters...</em></strong></p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">the_truth</span> <span class="o">=</span> <span class="s2">&quot;winter is coming&quot;</span>
+
+<span class="n">the_truth</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
 
 </div>
@@ -12110,7 +12031,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># What happens when we try to replace part of a string?</span>
@@ -12122,43 +12043,21 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-65-1b99ce165624&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-fg">      1</span> <span class="ansi-red-intense-fg ansi-bold"># What happens when we try to replace part of a string?</span>
-<span class="ansi-green-fg">      2</span> superhero <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;superman&#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 3</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>superhero<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">0</span><span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;S&#34;</span>
-
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>: &#39;str&#39; object does not support item assignment</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Try it with a list instead</span>
 
-<span class="n">characters</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Bugs Bunny&quot;</span><span class="p">,</span><span class="s2">&quot;Spiderman&quot;</span><span class="p">,</span><span class="s2">&quot;Iron Man&quot;</span><span class="p">,</span><span class="s2">&quot;Batman&quot;</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;characters was:&quot;</span><span class="p">,</span> <span class="n">characters</span><span class="p">)</span>
+<span class="n">heroes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;s&#39;</span><span class="p">,</span><span class="s1">&#39;u&#39;</span><span class="p">,</span><span class="s1">&#39;p&#39;</span><span class="p">,</span><span class="s1">&#39;e&#39;</span><span class="p">,</span><span class="s1">&#39;r&#39;</span><span class="p">]</span>
 
-<span class="n">characters</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Green Arrow&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Old:&quot;</span><span class="p">,</span><span class="n">heroes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;characters is now:&quot;</span><span class="p">,</span><span class="n">characters</span><span class="p">)</span>
+<span class="n">heroes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Z&quot;</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;New:&quot;</span><span class="p">,</span> <span class="n">heroes</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 
 </div>
@@ -12173,8 +12072,8 @@ div#notebook {
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>characters was: [&#39;Bugs Bunny&#39;, &#39;Spiderman&#39;, &#39;Iron Man&#39;, &#39;Batman&#39;]
-characters is now: [&#39;Bugs Bunny&#39;, &#39;Spiderman&#39;, &#39;Iron Man&#39;, &#39;Green Arrow&#39;]
+<pre>Old: s
+New: Z
 </pre>
 </div>
 </div>
@@ -12202,38 +12101,22 @@ characters is now: [&#39;Bugs Bunny&#39;, &#39;Spiderman&#39;, &#39;Iron Man&#39
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Slicing">Slicing<a class="anchor-link" href="#Slicing">&#182;</a></h3><p>Slicing allows us to access <em>sections</em> of the list, instead of the whole thing, or only a single element.</p>
-<p>Slicing can be used on a variety of python data structures, including strings. This is because we can think of strings as being a <em>sequence</em> of letters.</p>
+<p>Slicing can be used on a number of different python data types, including strings. This is because we can think of strings as being a <em>sequence</em>, or <em>list</em> of letters.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">indexList</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Index 0&quot;</span><span class="p">,</span> <span class="s2">&quot;Index 1&quot;</span><span class="p">,</span> <span class="s2">&quot;Index 2&quot;</span><span class="p">,</span> <span class="s2">&quot;Index 3&quot;</span><span class="p">]</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Slicing 1:3 is&#39;</span><span class="p">,</span> <span class="n">indexList</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Slicing 1:3 is&#39;</span><span class="p">,</span> <span class="n">indexList</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Slicing 1:3 is [&#39;Index 0&#39;, &#39;Index 1&#39;, &#39;Index 2&#39;, &#39;Index 3&#39;]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -12252,48 +12135,16 @@ characters is now: [&#39;Bugs Bunny&#39;, &#39;Spiderman&#39;, &#39;Iron Man&#39
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Index 1 to 3 is&#39;</span><span class="p">,</span> <span class="n">indexList</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Index 1 to 3 is&#39;</span><span class="p">,</span> <span class="n">indexList</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span> 
 
 <span class="c1"># Whereas if we were to try and find index[4], it would be over the edge!</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">indexList</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Index 1 to 3 is [&#39;Index 0&#39;, &#39;Index 1&#39;, &#39;Index 2&#39;, &#39;Index 3&#39;]
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">IndexError</span>                                Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-72-eac269118ff1&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-fg">      2</span> 
-<span class="ansi-green-fg">      3</span> <span class="ansi-red-intense-fg ansi-bold"># Whereas if we were to try and find index[4], it would be over the edge!</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 4</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>print<span class="ansi-yellow-intense-fg ansi-bold">(</span>indexList<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">4</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">IndexError</span>: list index out of range</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -12310,7 +12161,7 @@ characters is now: [&#39;Bugs Bunny&#39;, &#39;Spiderman&#39;, &#39;Iron Man&#39
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Index 2 to end is&#39;</span><span class="p">,</span> <span class="n">indexList</span><span class="p">[</span><span class="mi">2</span><span class="p">:])</span>
@@ -12320,55 +12171,23 @@ characters is now: [&#39;Bugs Bunny&#39;, &#39;Spiderman&#39;, &#39;Iron Man&#39
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Index 2 to end is [&#39;Index 2&#39;, &#39;Index 3&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Start to index 2 is:&quot;</span><span class="p">,</span> <span class="n">indexList</span><span class="p">[:</span><span class="mi">2</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Start UP TO index 2 is:&quot;</span><span class="p">,</span> <span class="n">indexList</span><span class="p">[:</span><span class="mi">2</span><span class="p">])</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Start to index 2 is: [&#39;Index 0&#39;, &#39;Index 1&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#As well as do negative, or wrap-around slicing</span>
@@ -12379,55 +12198,24 @@ characters is now: [&#39;Bugs Bunny&#39;, &#39;Spiderman&#39;, &#39;Iron Man&#39
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Index 1 to -1 is [&#39;Index 1&#39;, &#39;Index 2&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Index start to end is&#39;</span><span class="p">,</span> <span class="n">indexList</span><span class="p">[:])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Or grab the whole thing</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Index start to end is&#39;</span><span class="p">,</span> <span class="n">indexList</span><span class="p">[:])</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Index start to end is [&#39;Index 0&#39;, &#39;Index 1&#39;, &#39;Index 2&#39;, &#39;Index 3&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># You can do the same thing on strings</span>
@@ -12440,32 +12228,16 @@ characters is now: [&#39;Bugs Bunny&#39;, &#39;Spiderman&#39;, &#39;Iron Man&#39
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Hello
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#You can also use slicing to quickly assign new values to a list</span>
 <span class="n">odds1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span>
 
-<span class="c1">#change index 1 -&gt; 14, and 2 -&gt; 9</span>
+<span class="c1">#change index 1 -&gt; 14, and index 2 -&gt; 9</span>
 <span class="n">odds1</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">14</span><span class="p">,</span><span class="mi">9</span><span class="p">]</span> 
 
 <span class="nb">print</span><span class="p">(</span><span class="n">odds1</span><span class="p">)</span>
@@ -12475,19 +12247,16 @@ characters is now: [&#39;Bugs Bunny&#39;, &#39;Spiderman&#39;, &#39;Iron Man&#39
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1, 14, 9, 7]
-</pre>
 </div>
-</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
 
+</div>
 </div>
 </div>
 
@@ -12505,7 +12274,7 @@ characters is now: [&#39;Bugs Bunny&#39;, &#39;Spiderman&#39;, &#39;Iron Man&#39
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">odds1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span>
@@ -12519,53 +12288,19 @@ characters is now: [&#39;Bugs Bunny&#39;, &#39;Spiderman&#39;, &#39;Iron Man&#39
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Odds1: [1, 3, 5, 7]
-Odds2: [1, 3, 5, 7]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">odds1</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">13</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">odds1</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1300</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Odds1:&quot;</span><span class="p">,</span><span class="n">odds1</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Odds2:&quot;</span><span class="p">,</span> <span class="n">odds2</span><span class="p">)</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Odds1: [1, 13, 5, 7]
-Odds2: [1, 13, 5, 7]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -12582,19 +12317,15 @@ Odds2: [1, 13, 5, 7]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[81]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">odds1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span>
-<span class="n">odds2</span> <span class="o">=</span> <span class="n">odds1</span><span class="p">[:]</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Odds1:&quot;</span><span class="p">,</span><span class="n">odds1</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Odds2:&quot;</span><span class="p">,</span> <span class="n">odds2</span><span class="p">)</span>
+<span class="n">odds2</span> <span class="o">=</span> <span class="n">odds1</span><span class="p">[:]</span> <span class="c1">#So take everything from inside odds1</span>
 
-<span class="n">odds1</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">13</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Odds1:&quot;</span><span class="p">,</span><span class="n">odds1</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Odds2:&quot;</span><span class="p">,</span> <span class="n">odds2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">odds1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">odds2</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12609,10 +12340,40 @@ Odds2: [1, 13, 5, 7]
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Odds1: [1, 3, 5, 7]
-Odds2: [1, 3, 5, 7]
-Odds1: [1, 13, 5, 7]
-Odds2: [1, 3, 5, 7]
+<pre>[1, 3, 5, 7]
+[1, 3, 5, 7]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">odds1</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1300</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">odds1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">odds2</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[1, 3, 5, 1300]
+[1, 3, 5, 7]
 </pre>
 </div>
 </div>
@@ -12626,8 +12387,8 @@ Odds2: [1, 3, 5, 7]
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Challenge">Challenge<a class="anchor-link" href="#Challenge">&#182;</a></h4><p>Given a string, <code>s</code>, of length at most 200 letters and a variety of integers, return the slice of this string from paired indices, inclusively. e.g. <code>a</code> through <code>b</code>, <code>c</code> through <code>d</code>, and <code>e</code> through <code>f</code>, etc. Make sure to include a space between each word. In other words, we should <em>include</em> the letters AT s[b] and s[d] in our slice.</p>
-<p>E.g.</p>
+<h4 id="Challenge">Challenge<a class="anchor-link" href="#Challenge">&#182;</a></h4><p>Given a string, <code>s</code>, of length at most 200 letters and a variety of integers, return the slice of this string from paired indices, inclusively. e.g. <code>a</code> through <code>b</code>, <code>c</code> through <code>d</code>, and <code>e</code> through <code>f</code>, etc. In other words, we should <em>include</em> the letters AT s[b] and s[d] in our slice. Make sure to include a space between each word. 
+E.g.</p>
 <p><code>s = "HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptytogetheragain"
 a = 22; b = 27; c = 97; d = 102</code></p>
 <p>Would print:</p>
@@ -12638,7 +12399,7 @@ a = 22; b = 27; c = 97; d = 102</code></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">zen</span> <span class="o">=</span> <span class="s2">&quot;BeautifulisbetterthanuglySimpleisbetterthancomplexComplexisbetterthancomplicated&quot;</span>
@@ -12700,14 +12461,14 @@ a = 22; b = 27; c = 97; d = 102</code></p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Adding-and-Deleting-List-Elements">Adding and Deleting List Elements<a class="anchor-link" href="#Adding-and-Deleting-List-Elements">&#182;</a></h2><p>Just creating our list isn't enough though - a lot of the time we need to be able to delete and add new elements into it as required. This can be used to record which items you've already seen when going through a spreadsheet, checking whether something belongs to a certain group, etc. We can do this with a few different methods.</p>
-<h3 id="Append">Append<a class="anchor-link" href="#Append">&#182;</a></h3><p>To add a new variable into a list, we can use the <code>.append()</code> method. This adds the newest variable onto the <em>end</em> of the list.</p>
+<h3 id="Append">Append<a class="anchor-link" href="#Append">&#182;</a></h3><p>To add new data into a list, we can use the <code>.append()</code> method. This adds the newest piece of information onto the <em>end</em> of the list.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[83]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">odds</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span>
@@ -12720,7 +12481,7 @@ a = 22; b = 27; c = 97; d = 102</code></p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[84]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Odds before:&quot;</span><span class="p">,</span> <span class="n">odds</span><span class="p">)</span>
@@ -12734,23 +12495,6 @@ a = 22; b = 27; c = 97; d = 102</code></p>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Odds before: [1, 3, 5, 7]
-Odds after: [1, 3, 5, 7, 9]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -12758,14 +12502,14 @@ Odds after: [1, 3, 5, 7, 9]
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Insert">Insert<a class="anchor-link" href="#Insert">&#182;</a></h3><p><code>insert()</code> lets us put a new item into your list at the location of your choosing.</p>
-<p>The basic structure of this is list.insert(list index,variable)</p>
+<p>The basic structure of this is <em>list.insert(<strong>list index,new item</strong>)</em></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[85]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">odds</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="mi">4</span>
@@ -12778,7 +12522,7 @@ Odds after: [1, 3, 5, 7, 9]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[86]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">odds</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
@@ -12789,26 +12533,10 @@ Odds after: [1, 3, 5, 7, 9]
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1, 3, 4, 5, 7, 9]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[87]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">odds</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
@@ -12816,22 +12544,6 @@ Odds after: [1, 3, 5, 7, 9]
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1, 3, 4, 5, 7, 9, 4]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -12849,7 +12561,7 @@ Odds after: [1, 3, 5, 7, 9]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">odds</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">]</span>
@@ -12860,26 +12572,10 @@ Odds after: [1, 3, 5, 7, 9]
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1, 3, 4, 5, 7, 8]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[89]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">del</span> <span class="n">odds</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span>
@@ -12890,26 +12586,10 @@ Odds after: [1, 3, 5, 7, 9]
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1, 3, 4, 7, 8]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[90]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># But you can&#39;t go off the end: Error</span>
@@ -12917,28 +12597,6 @@ Odds after: [1, 3, 5, 7, 9]
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">IndexError</span>                                Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-90-9a843a08d946&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-fg">      1</span> <span class="ansi-red-intense-fg ansi-bold"># But you can&#39;t go off the end: Error</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">del</span> odds<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">12</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
-
-<span class="ansi-red-intense-fg ansi-bold">IndexError</span>: list assignment index out of range</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13132,9 +12790,7 @@ Odds after: [1, 3, 5, 7, 9]
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Answer:</span>
-
-<span class="n">pets</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
 </div>
@@ -13147,7 +12803,123 @@ Odds after: [1, 3, 5, 7, 9]
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Other-list-functions">Other list functions<a class="anchor-link" href="#Other-list-functions">&#182;</a></h3><p>More useful list functions are <code>list.sort()</code>, and <code>list.reverse()</code></p>
+<h3 id="Other-list-functions:-Our-first-googling-exercise">Other list functions: Our first googling exercise<a class="anchor-link" href="#Other-list-functions:-Our-first-googling-exercise">&#182;</a></h3><p>Much like strings, there are many useful methods in the Backpack of the list:</p>
+<p><a href="https://docs.python.org/3/tutorial/datastructures.html">https://docs.python.org/3/tutorial/datastructures.html</a></p>
+<p>I will assign each group a method, and I want you guys to go to the link above, and figure out what that method does, and show me, give me an example</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">extend</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>More information on <code>list.sort()</code>, and <code>list.reverse()</code></p>
 <p><code>list.sort()</code> will sort your list based on "lexicographic order". This means that capital A-Z are sorted before lower-case a-z.</p>
 <p>However, sort() will not work if you have both strings and numeric data types in your list. It can only work if they are all strings, or all numeric (a combination of int and float).</p>
 
@@ -13159,7 +12931,7 @@ Odds after: [1, 3, 5, 7, 9]
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">helpers</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Kahli&quot;</span><span class="p">,</span> <span class="s2">&quot;Jonathan&quot;</span><span class="p">,</span> <span class="s2">&quot;Hao&quot;</span><span class="p">,</span><span class="s2">&quot;Abhi&quot;</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">leads</span> <span class="o">=</span> <span class="p">[]</span>
 </pre></div>
 
 </div>
@@ -13172,8 +12944,8 @@ Odds after: [1, 3, 5, 7, 9]
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">helpers</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">helpers</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">leads</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">leads</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13186,8 +12958,8 @@ Odds after: [1, 3, 5, 7, 9]
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">helpers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;New names:&quot;</span><span class="p">,</span> <span class="n">helpers</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">leads</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;New names:&quot;</span><span class="p">,</span> <span class="n">leads</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13201,7 +12973,7 @@ Odds after: [1, 3, 5, 7, 9]
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Doesn&#39;t work with a mixture of data types</span>
-<span class="n">helpers</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+<span class="n">leads</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -13215,11 +12987,6 @@ Odds after: [1, 3, 5, 7, 9]
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># But is fine with both ints and floats</span>
-<span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mf">2.5</span><span class="p">,</span><span class="mf">1.25</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
-
-<span class="n">nums</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13240,7 +13007,7 @@ Odds after: [1, 3, 5, 7, 9]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[91]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">nums</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
@@ -13251,54 +13018,21 @@ Odds after: [1, 3, 5, 7, 9]
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[1, 1.25, 2.5, 4, 8]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[92]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#the list doesn&#39;t have to be sorted either</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">helpers</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">leads</span><span class="p">)</span>
 
-<span class="n">helpers</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+<span class="n">leads</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">helpers</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">leads</span><span class="p">)</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;Abhi&#39;, &#39;Hao&#39;, &#39;Jonathan&#39;, &#39;Kahli&#39;, 3]
-[3, &#39;Kahli&#39;, &#39;Jonathan&#39;, &#39;Hao&#39;, &#39;Abhi&#39;]
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
