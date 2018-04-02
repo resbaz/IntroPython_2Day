@@ -33,23 +33,17 @@ You will also find that the content for the workshop is available in both the ma
 
 The basic progression for the workshop should be as follows:
 
-### Tuesday 27th March
+### Friday 6th April
 |Time| Activity|
 |---:|---|
-|10.00am - 11.00am |Intro to Jupyter and Python|
+|10.00am - 11.00am |Rehash|
 |11.15am - 11.30am|Tea Break|
-|11:30am - 11.45am |Lists|
-|11.45am - 12.30pm|Conditionals|
-|12.30am - 1.45pm|Lunch|
-|1.45pm - 2.45pm|For Loops|
+|11:30am - 12.00pm|Conditionals|
+|12.00pm - 12.15pm|Tea Break|
+|12.15pm - 1.15pm|For Loops|
+|1.15pm - 2.15pm|Lunch|
+|2.15pm - 2.45pm|Functions|
 |2.45pm - 3.00pm|Tea Break|
-|3.00pm - 4.00pm|Functions|
+|3.00pm - 3.30pm|Functions Continued|
+|3.30pm - 4.00pm|File IO and Closing Remarks|
 
-### Friday 6th April
-
-To be updated soon. Topics will include:
-
-- Dictionaries
-- File Input/Output
-- String Manipulations
-- How to use packages + further training tasters
